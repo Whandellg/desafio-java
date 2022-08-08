@@ -15,6 +15,7 @@ import lombok.Generated;
 @Data
 @Generated
 public class SituationEntity {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	Integer id;
