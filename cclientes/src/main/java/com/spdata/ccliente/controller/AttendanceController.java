@@ -1,7 +1,7 @@
-package com.nitech.spdata.controller;
+package com.spdata.ccliente.controller;
 
-import com.nitech.spdata.entity.AttendanceEntity;
-import com.nitech.spdata.service.AttendanceService;
+import com.spdata.ccliente.entity.AttendanceEntity;
+import com.spdata.ccliente.service.AttendanceService;
 
 import java.util.List;
 

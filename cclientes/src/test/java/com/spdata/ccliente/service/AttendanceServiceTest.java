@@ -1,7 +1,7 @@
-package com.nitech.spdata.service;
+package com.spdata.ccliente.service;
 
-import com.nitech.spdata.entity.AttendanceEntity;
-import com.nitech.spdata.repository.AttendanceRepository;
+import com.spdata.ccliente.entity.AttendanceEntity;
+import com.spdata.ccliente.repository.AttendanceRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

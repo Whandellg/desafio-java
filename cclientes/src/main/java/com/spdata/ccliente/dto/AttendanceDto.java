@@ -1,4 +1,4 @@
-package com.nitech.spdata.dto;
+package com.spdata.ccliente.dto;
 
 import com.sun.istack.NotNull;
 

@@ -1,6 +1,6 @@
-package com.nitech.spdata.repository;
+package com.spdata.ccliente.repository;
 
-import com.nitech.spdata.entity.AttendanceEntity;
+import com.spdata.ccliente.entity.AttendanceEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,17 +1,17 @@
-package com.nitech.spdata.service;
+package com.spdata.ccliente.service;
 
+import com.spdata.ccliente.repository.PacientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.nitech.spdata.entity.PacientEntity;
-import com.nitech.spdata.repository.PacientRepository;
+import com.spdata.ccliente.entity.PacientEntity;
 
 @Service
 public class PacientService {
 	@Autowired
-	PacientRepository pacientRepository;
+    PacientRepository pacientRepository;
 
 	public PacientEntity save(PacientEntity client) {
 		return pacientRepository.save(client);

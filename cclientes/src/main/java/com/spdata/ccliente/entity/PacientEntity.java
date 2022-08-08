@@ -1,4 +1,4 @@
-package com.nitech.spdata.entity;
+package com.spdata.ccliente.entity;
 
 import lombok.Data;
 import lombok.Generated;

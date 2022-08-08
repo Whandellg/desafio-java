@@ -1,17 +1,17 @@
-package com.nitech.spdata.service;
+package com.spdata.ccliente.service;
 
 import java.util.List;
 
+import com.spdata.ccliente.repository.SituationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.nitech.spdata.entity.SituationEntity;
-import com.nitech.spdata.repository.SituationRepository;
+import com.spdata.ccliente.entity.SituationEntity;
 
 @Service
 public class SituationService {
 	@Autowired
-	SituationRepository repository;
+    SituationRepository repository;
 
 	public SituationEntity save(SituationEntity product) {
 		return repository.save(product);

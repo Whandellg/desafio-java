@@ -1,13 +1,13 @@
-package com.nitech.spdata.service;
+package com.spdata.ccliente.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.nitech.spdata.entity.AttendanceEntity;
-import com.nitech.spdata.repository.AttendanceRepository;
-import com.nitech.spdata.repository.SituationRepository;
+import com.spdata.ccliente.entity.AttendanceEntity;
+import com.spdata.ccliente.repository.AttendanceRepository;
+import com.spdata.ccliente.repository.SituationRepository;
 
 @Service
 public class AttendanceService {
