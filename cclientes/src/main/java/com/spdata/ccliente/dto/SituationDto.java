@@ -12,6 +12,6 @@ public class SituationDto {
     Integer id;
 
     @Column
-    //    @Size(max=50)
+    //@Size(max=50)
     String description;
 }
